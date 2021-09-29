@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+
+body {
+  font-family: "PT Sans", sans-serif;
+  background-image: url("https://cdn.discordapp.com/attachments/750028167225540648/891000060131823667/fundoPortfolio.png");
+}
+
+.conteudos {
+  margin: 40px;
+  padding: 32px;
+  box-shadow: 3px 3px 3px #818181;
+  background: #730000;
+  border-radius: 20px;
+  color: #ffffff;
+}
+
+.foto-perfil {
+  border: 2px solid white;
+  max-height: 100px;
+  border-radius: 80px;
+  margin-bottom: 32px;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+}
+
+.titulos {
+  margin-left: 16px;
+}
+
+.titulos h1 {
+  font-weight: 700;
+  margin-bottom: -22px;
+}
+
+.titulos h3 {
+  font-weight: 400;
+}
+
+.div-linkedin a {
+  align-self: flex-end;
+  /*   align-items: flex-end; */
+}
+
+.image-linkedin {
+  max-height: 30px;
+  padding-top: 4px;
+}
+
+.image-github {
+  max-height: 40px;
+  padding-top: 4px;
+  padding-left: 4px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  /*   align-items: center; */
+  background: linear-gradient(230deg, #9b0000 31%, #610000 82%);
+  border-radius: 20px;
+  padding: 16px;
+  margin-top: 8px;
+}
+
+.projetos-titulo {
+  list-style: none;
+  /*   font-weight: 700; */
+  font-size: 24px;
+}
+
+.projetos-lista {
+  list-style-type: none;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.projetos-lista a {
+  color: #ffffff;
+  text-decoration: none;
+  text-decoration-line: none;
+}
